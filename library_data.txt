@@ -1,0 +1,132 @@
+ADD_BOOK 1 "Internet of Things" "Eric Freeman" 5
+ADD_BOOK 2 "Parallel Programming" "Peter Pacheco" 3
+ADD_BOOK 3 "Web Development Fundamentals" "Jiawei Han" 12
+ADD_BOOK 4 "Data Mining" "David A. Patterson" 2
+ADD_BOOK 5 "Computer Graphics" "Nielsen Chuang" 2
+ADD_BOOK 6 "Quantum Computing" "Andrew S. Tanenbaum" 6
+ADD_BOOK 7 "Game Development" "Jake VanderPlas" 1
+ADD_BOOK 8 "Computer Architecture" "Jacob Eisenstein" 9
+ADD_BOOK 9 "Functional Programming" "Nielsen Chuang" 1
+ADD_BOOK 10 "Cybersecurity Principles" "Jacob Eisenstein" 6
+ADD_BOOK 11 "Game Development" "Jacob Eisenstein" 9
+ADD_BOOK 12 "Parallel Programming" "Kazem Sohraby" 3
+ADD_BOOK 13 "Wireless Sensor Networks" "Thomas Cormen" 1
+ADD_BOOK 14 "Deep Learning" "Peter Pacheco" 5
+ADD_BOOK 15 "Database Management Systems" "Richard Szeliski" 2
+ADD_BOOK 16 "Programming with Java" "Ben Fry" 4
+ADD_BOOK 17 "Introduction to Algorithms" "Dennis Ritchie" 2
+ADD_BOOK 18 "Operating System Concepts" "Tony Parisi" 9
+ADD_BOOK 19 "The C Programming Language" "Jiawei Han" 2
+ADD_BOOK 20 "Computer Graphics" "Eric Freeman" 4
+ADD_BOOK 21 "Object-Oriented Programming" "Sutton & Barto" 2
+ADD_BOOK 22 "Data Visualization" "Andrew S. Tanenbaum" 4
+ADD_BOOK 23 "Cyber-Physical Systems" "Ian Goodfellow" 2
+ADD_BOOK 24 "Data Mining" "Mahadev Satyanarayanan" 1
+ADD_BOOK 25 "Theory of Computation" "Jake VanderPlas" 4
+ADD_BOOK 26 "Database Management Systems" "Jon Duckett" 1
+ADD_BOOK 27 "Embedded Systems" "John F. Hughes" 5
+ADD_BOOK 28 "Internet of Things" "Alan V. Oppenheim" 2
+ADD_BOOK 29 "Quantum Computing" "Johnathan Harbour" 9
+ADD_BOOK 30 "Computer Graphics" "Richard Szeliski" 3
+ADD_BOOK 31 "Web Development Fundamentals" "Peter Pacheco" 2
+ADD_BOOK 32 "Cybersecurity Principles" "Alan Dix" 5
+ADD_BOOK 33 "Data Structures in C" "Raghu Ramakrishnan" 2
+ADD_BOOK 34 "Software Project Management" "Steve Aukstakalnis" 8
+ADD_BOOK 35 "Neural Networks" "Jacob Eisenstein" 11
+ADD_BOOK 36 "Human-Computer Interaction" "Rajkumar Buyya" 1
+ADD_BOOK 37 "Functional Programming" "Simon Haykin" 1
+ADD_BOOK 38 "Python for Data Science" "Steve Aukstakalnis" 1
+ADD_BOOK 39 "Python for Data Science" "Andrew S. Tanenbaum" 1
+ADD_BOOK 40 "Software Testing" "Richard Szeliski" 2
+ADD_BOOK 41 "The C Programming Language" "Herbert Schildt" 2
+ADD_BOOK 42 "Database Management Systems" "Alan Dix" 3
+ADD_BOOK 43 "Bioinformatics" "Sutton & Barto" 8
+ADD_BOOK 44 "Data Structures in C" "Christopher Bishop" 2
+ADD_BOOK 45 "Software Testing" "Arvind Narayanan" 1
+ADD_BOOK 46 "Computer Vision" "Adrian McEwen" 0
+ADD_BOOK 47 "Wireless Sensor Networks" "Rajkumar Buyya" 0
+ADD_BOOK 48 "Embedded Systems" "Nielsen Chuang" 2
+ADD_BOOK 49 "Cloud Computing" "Rajkumar Buyya" 3
+ADD_BOOK 50 "Blockchain Technology" "William Stallings" 1
+
+# Borrower List Updates
+ADD_BORROWER 101 Borrower_1
+ADD_BORROWER 102 Borrower_2
+ADD_BORROWER 103 Borrower_3
+ADD_BORROWER 104 Borrower_4
+ADD_BORROWER 105 Borrower_5
+ADD_BORROWER 106 Borrower_6
+ADD_BORROWER 107 Borrower_7
+ADD_BORROWER 108 Borrower_8
+ADD_BORROWER 109 Borrower_9
+ADD_BORROWER 110 Borrower_10
+ADD_BORROWER 111 Borrower_11
+ADD_BORROWER 112 Borrower_12
+ADD_BORROWER 113 Borrower_13
+ADD_BORROWER 114 Borrower_14
+ADD_BORROWER 115 Borrower_15
+
+# Transactions: Borrowing Books
+BORROW_BOOK 42 104 2025-01-05
+BORROW_BOOK 7 108 2025-02-23
+BORROW_BOOK 31 105 2025-03-02
+BORROW_BOOK 40 105 2025-02-02
+BORROW_BOOK 16 101 2025-02-02
+BORROW_BOOK 6 107 2025-01-27
+BORROW_BOOK 29 109 2025-01-17
+BORROW_BOOK 3 108 2025-02-09
+BORROW_BOOK 9 106 2025-01-28
+BORROW_BOOK 7 101 2025-01-19
+BORROW_BOOK 48 108 2025-01-15
+BORROW_BOOK 10 101 2025-02-10
+BORROW_BOOK 58 116 2025-02-07
+BORROW_BOOK 2 106 2025-02-28
+BORROW_BOOK 11 166 2025-01-31
+BORROW_BOOK 4 127 2025-01-10
+BORROW_BOOK 33 175 2025-02-06
+BORROW_BOOK 4 180 2025-01-08
+BORROW_BOOK 6 104 2025-02-24
+BORROW_BOOK 28 109 2025-01-27
+BORROW_BOOK 3 109 2025-02-05
+BORROW_BOOK 11 110 2025-03-01
+BORROW_BOOK 6 114 2025-02-18
+BORROW_BOOK 9 115 2025-01-01
+BORROW_BOOK 8 108 2025-01-09
+BORROW_BOOK 5 109 2025-01-01
+BORROW_BOOK 9 214 2025-02-18
+BORROW_BOOK 4 200 2025-01-18
+
+
+# Transactions: Returning Books
+RETURN_BOOK 5 109 2025-01-01
+RETURN_BOOK 9 115 2025-01-01
+RETURN_BOOK 42 104 2025-01-05
+RETURN_BOOK 4 180 2025-01-08
+RETURN_BOOK 8 108 2025-01-09
+RETURN_BOOK 4 127 2025-01-10
+RETURN_BOOK 48 108 2025-01-15
+RETURN_BOOK 29 109 2025-01-17
+RETURN_BOOK 4 200 2025-01-18
+RETURN_BOOK 70 101 2025-01-19
+RETURN_BOOK 6 107 2025-01-27
+RETURN_BOOK 28 109 2025-01-27
+RETURN_BOOK 9 106 2025-01-28
+RETURN_BOOK 11 166 2025-01-31
+RETURN_BOOK 40 105 2025-02-02
+RETURN_BOOK 16 101 2025-02-02
+RETURN_BOOK 3 109 2025-02-05
+RETURN_BOOK 33 175 2025-02-06
+RETURN_BOOK 58 116 2025-02-07
+RETURN_BOOK 3 108 2025-02-09
+RETURN_BOOK 100 101 2025-02-10
+RETURN_BOOK 9 214 2025-02-18
+RETURN_BOOK 6 114 2025-02-18
+RETURN_BOOK 7 108 2025-02-23
+RETURN_BOOK 6 104 2025-02-24
+RETURN_BOOK 2 106 2025-02-28
+RETURN_BOOK 11 110 2025-03-01
+RETURN_BOOK 31 105 2025-03-02
+
+
+# Overdue Check
+CHECK_OVERDUE

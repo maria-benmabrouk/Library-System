@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1768092641 source:d:\library system\librarysystem\main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	<ctype.h>
-	<unistd.h>
-

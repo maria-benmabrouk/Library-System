@@ -13,21 +13,19 @@
 #define MAGENTA "\033[1;35m"
 #define CYAN    "\033[1;36m"
 #define WHITE   "\033[1;37m"
-// structure to represent  a book in the library
 struct book{
-     struct book* left; // pointer to the left node
-     int id; // the unique identifier of the book
-     char* title; // the title of the book
-     char* author; // the author of the book
-     int copies;// the numbers of copies available of each book
-     struct book* right;// pointer to the right node
+     struct book* left; 
+     int id; 
+     char* title; 
+     char* author; 
+     int copies;
+     struct book* right;
 };
-// structure to represent  a borrower
 struct borrower{
-    struct borrower* left; // pointer to the left node
-      int id;// the  unique identifier of the borrower
-      char* name;// the name of the borrower
-      struct borrower* right;// pointer to the left node
+    struct borrower* left; 
+      int id;
+      char* name;
+      struct borrower* right;
 };
 //------queue-------------------------------------------
 // borrower a book
@@ -1481,4 +1479,5 @@ int main(){
      freelist_queue_return(&q_return);
 return 0;
 }
+
 
